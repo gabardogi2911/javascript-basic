@@ -12,6 +12,18 @@
 
 function es23(a, b, operatore) {
   // TODO: scrivi qui la tua soluzione
+  if (operatore == "+") {
+    return a + b;
+  }
+  if (operatore == "-") {
+    return a - b;
+  }
+  if (operatore == "*") {
+    return a * b;
+  }
+  if (operatore == "/") {
+    return a / b;
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---

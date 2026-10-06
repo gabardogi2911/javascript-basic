@@ -14,7 +14,12 @@
 // --- SCRIVI QUI LA TUA SOLUZIONE ---
 
 function es24(n) {
-  // TODO: scrivi qui la tua soluzione
+  const positivo = n > 0;
+  const pari = n % 2 === 0;
+  const assoluto = Math.abs(n);
+  const radice = n < 0 ? NaN : Math.sqrt(n);
+
+  return { positivo, pari, assoluto, radice };
 }
 
 // --- NON MODIFICARE SOTTO ---
