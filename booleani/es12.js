@@ -13,7 +13,7 @@
 
 function es12(ruolo, isLogged) {
   // TODO: scrivi qui la tua soluzione
-  return ruolo.isLogged  
+   return (ruolo === "admin" || ruolo === "editor") || (ruolo === "viewer" && isLogged);
 }
 
 // --- NON MODIFICARE SOTTO ---

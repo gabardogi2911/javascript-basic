@@ -14,6 +14,7 @@
 
 function es15(password) {
   // TODO: scrivi qui la tua soluzione
+  return 
 }
 
 // --- NON MODIFICARE SOTTO ---
