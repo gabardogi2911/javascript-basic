@@ -12,16 +12,19 @@
 function es6_1(val) {
   // 1. Restituisci val se non è null/undefined, altrimenti "default"
   // TODO: scrivi qui la tua soluzione
+  return val ?? "default"
 }
 
 function es6_2() {
   // 2. Restituisci il risultato di 0 ?? "default"
   // TODO: scrivi qui la tua soluzione
+  return 0 ?? "default"
 }
 
 function es6_3() {
   // 3. Restituisci il risultato di null ?? "valore non presente"
   // TODO: scrivi qui la tua soluzione
+  return null ?? "valore non presente"
 }
 
 // --- NON MODIFICARE SOTTO ---

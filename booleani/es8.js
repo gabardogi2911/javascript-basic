@@ -11,16 +11,19 @@
 function es8_1(val) {
   // 1. Converti val in booleano usando Boolean()
   // TODO: scrivi qui la tua soluzione
+  return Boolean(val)
 }
 
 function es8_2() {
   // 2. Converti la stringa vuota "" in booleano
   // TODO: scrivi qui la tua soluzione
+  return Boolean("")
 }
 
 function es8_3() {
   // 3. Converti il numero 42 in booleano
   // TODO: scrivi qui la tua soluzione
+  return Boolean(42)
 }
 
 // --- NON MODIFICARE SOTTO ---

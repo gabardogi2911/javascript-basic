@@ -13,6 +13,7 @@
 
 function es12(ruolo, isLogged) {
   // TODO: scrivi qui la tua soluzione
+  return ruolo.isLogged  
 }
 
 // --- NON MODIFICARE SOTTO ---

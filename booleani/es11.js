@@ -13,6 +13,7 @@
 
 function es11(persona) {
   // TODO: scrivi qui la tua soluzione
+  return persona.nome !== "" && persona.eta >= 18 ;
 }
 
 // --- NON MODIFICARE SOTTO ---
