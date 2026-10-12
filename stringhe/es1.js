@@ -13,16 +13,19 @@
 function es1_1(nome) {
   // 1. Restituisci la lunghezza del nome ricevuto come parametro
   // TODO: scrivi qui la tua soluzione
+  return nome.length
 }
 
 function es1_2() {
   // 2. Restituisci la lunghezza della stringa "JavaScript"
   // TODO: scrivi qui la tua soluzione
-}
+  return "JavaScript".length 
+    }
 
 function es1_3(frase) {
   // 3. Riceve una frase e restituisce quanti caratteri contiene
   // TODO: scrivi qui la tua soluzione
+  return frase.length
 }
 
 // --- NON MODIFICARE SOTTO ---

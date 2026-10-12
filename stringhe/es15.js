@@ -14,6 +14,10 @@
 function es15() {
   const email = "   MARIO.ROSSI@GMAIL.COM   ";
   // TODO: scrivi qui la tua soluzione
+  return { 
+    pulita: email.trim().toLowerCase(),
+    valida: email.includes("@")
+  }
 }
 
 // --- NON MODIFICARE SOTTO ---

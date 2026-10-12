@@ -12,16 +12,19 @@
 function es2_1(s) {
   // 1. Restituisci il primo carattere della stringa ricevuta
   // TODO: scrivi qui la tua soluzione
+  return s.at(0)
 }
 
 function es2_2(s) {
   // 2. Restituisci l'ultimo carattere della stringa ricevuta
   // TODO: scrivi qui la tua soluzione
+  return s.at(-1)
 }
 
 function es2_3(s) {
   // 3. Restituisci il terzo carattere della stringa ricevuta
   // TODO: scrivi qui la tua soluzione
+  return s.at(2)
 }
 
 // --- NON MODIFICARE SOTTO ---

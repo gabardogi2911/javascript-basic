@@ -11,16 +11,19 @@
 function es10_1(s) {
   // 1. Dividi la stringa ricevuta (nomi separati da virgole) in un array
   // TODO: scrivi qui la tua soluzione
+  return s.split(",")
 }
 
 function es10_2() {
   // 2. Dividi la data "12/06/2026" in ["12", "06", "2026"]
   // TODO: scrivi qui la tua soluzione
+  return "12/06/2026".split("/")
 }
 
 function es10_3(s) {
   // 3. Dividi la frase ricevuta parola per parola (separatore: spazio)
   // TODO: scrivi qui la tua soluzione
+  return s.split(" ")
 }
 
 // --- NON MODIFICARE SOTTO ---

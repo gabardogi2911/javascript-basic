@@ -11,16 +11,19 @@
 function es9_1(s) {
   // 1. Sostituisci tutti gli spazi con "_"
   // TODO: scrivi qui la tua soluzione
+  return s.replaceAll(" ", "_")
 }
 
 function es9_2(s) {
   // 2. Sostituisci tutte le virgole con ";"
   // TODO: scrivi qui la tua soluzione
+  return s.replaceAll(",",";")
 }
 
 function es9_3(s) {
   // 3. Sostituisci tutte le lettere "a" con "@"
   // TODO: scrivi qui la tua soluzione
+  return s.replaceAll("a","@")
 }
 
 // --- NON MODIFICARE SOTTO ---
