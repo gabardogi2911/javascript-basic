@@ -11,16 +11,19 @@
 function es1_1(arr) {
   // 1. Restituisci la lunghezza dell'array ricevuto
   // TODO: scrivi qui la tua soluzione
+  return arr.length
 }
 
 function es1_2() {
   // 2. Restituisci la lunghezza di ["a", "b", "c", "d"]
   // TODO: scrivi qui la tua soluzione
+  return ["a", "b", "c", "d"].length
 }
 
 function es1_3() {
   // 3. Restituisci la lunghezza di un array vuoto
   // TODO: scrivi qui la tua soluzione
+  return [].length
 }
 
 // --- NON MODIFICARE SOTTO ---

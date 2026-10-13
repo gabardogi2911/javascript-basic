@@ -12,6 +12,7 @@
 function es16() {
   const frase = "rosso,verde,giallo,blu";
   // TODO: scrivi qui la tua soluzione
+  
 
 }
 
